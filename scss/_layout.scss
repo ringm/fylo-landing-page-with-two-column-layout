@@ -1,0 +1,38 @@
+.container {
+  width: min(90%, 1100px);
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+
+  @include mq {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+
+  &__logo {
+    margin-right: auto;
+  }
+
+  &__list {
+    display: flex;
+  }
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
