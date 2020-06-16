@@ -91,9 +91,12 @@
 
   &__title {
     font-size: 2.2rem;
-
     margin-bottom: 2rem;
-    line-height: 3.2rem;
+    line-height: 1.4;
+
+    @include mq {
+      font-size: 3.2rem;
+    }
   }
 
   &__text {
@@ -147,9 +150,10 @@
     margin-top: 4rem;
     font-size: 1.8rem;
     margin-bottom: 2rem;
-    line-height: 3.2rem;
+    line-height: 1.4;
 
     @include mq {
+      font-size: 2.4rem;
       text-align: left;
     }
   }
@@ -259,6 +263,10 @@
   &__title {
     font-size: 1.8rem;
     margin-bottom: 2rem;
+
+    @include mq {
+      font-size: 2.4rem;
+    }
   }
 
   &__text {
@@ -267,8 +275,6 @@
     line-height: 2.4rem;
     margin-bottom: 3rem;
   }
-
-
 
   @include mq {
     text-align: left;

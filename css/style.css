@@ -151,7 +151,12 @@ label {
 .header__title {
   font-size: 2.2rem;
   margin-bottom: 2rem;
-  line-height: 3.2rem;
+  line-height: 1.4;
+}
+@media (min-width: 700px) {
+  .header__title {
+    font-size: 3.2rem;
+  }
 }
 .header__text {
   font-size: 1.6rem;
@@ -195,10 +200,11 @@ label {
   margin-top: 4rem;
   font-size: 1.8rem;
   margin-bottom: 2rem;
-  line-height: 3.2rem;
+  line-height: 1.4;
 }
 @media (min-width: 700px) {
   .sec-content__title {
+    font-size: 2.4rem;
     text-align: left;
   }
 }
@@ -289,6 +295,11 @@ label {
 .third-content__title {
   font-size: 1.8rem;
   margin-bottom: 2rem;
+}
+@media (min-width: 700px) {
+  .third-content__title {
+    font-size: 2.4rem;
+  }
 }
 .third-content__text {
   color: rgba(255, 255, 255, 0.8);
